@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .right ul li {
+            list-style: none;
+
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+
+        }
+
+        .right img {
+
+            background-color: black;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 149px;
+        }
+
+        .container img h3 small {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .conatiner h3 small a {
+            color: black;
+        }
+
+        .letter a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .conatiner {
+            padding: 20px;
+        }
+
+        .letter h3 {
+
+            margin: 19px;
+        }
+
+        img {
+            padding: 5px;
+
+        }
+
+        small {
+            font-size: 12px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 83px;
+        }
+
+        .main img {
+            padding: 0px;
+            width: 86px;
+        }
+
+        strong {
+            font-size: larger;
+        }
+
+        .main h1 {
+            font-size: large;
+            font-weight: normal;
+            font-size: 230%;
+        }
+
+        .text {
+            text-align: center;
+            position: relative;
+            top: 72px;
+
+        }
+
+        .text h3 {
+            font-weight: normal;
+        }
+
+        .downloadbutton {
+            text-align: center;
+            position: relative;
+            top: 100px;
+        }
+
+        .downloadbutton a {
+            background-color: #00b6d1;
+            border-radius: 5px;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        .objects {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 260px;
+            border-radius: 5px;
+            list-style: none;
+            flex-wrap: wrap;
+
+        }
+
+        .obj1 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj2 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj3 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj4 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj5 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj6 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj7 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj8 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .obj9 {
+            background-color: #e9e3e3;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .blue li {
+
+            background-color: rgb(76, 182, 231);
+            border-radius: 5px;
+            padding: 7px;
+            margin: 3px;
+        }
+
+        .green li {
+            background-color: rgb(129, 240, 85);
+            border-radius: 5px;
+            padding: 7px;
+            margin: 3px;
+        }
+
+        .objects li {
+            float: right;
+        }
+
+        .boxes {
+            display: flex;
+            gap: 15px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            position: relative;
+            bottom: 220px;
+        }
+
+        .text {
+            color: black;
+        }
+
+        .main {
+            color: black;
+
+        }
+
+        h3 {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="UE-Logo-1.webp" width="200" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About us</li>
+                    <li>Security And Compliance</li>
+                    <li><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang-home.png"></li>
+
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <h1>
+            Download
+            <strong>UltraEdit</strong>
+            for windows&nbsp;
+            <img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png ">
+        </h1>
+    </div>
+    <div class="text">
+        <h3> Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+            editor.
+            <br>
+        </h3>
+    </div>
+    <div class="downloadbutton"><a href="/downloads/uex-thank-you/">Download Mac or Linux version</a><br><br><br><a
+            href="/downloads/uex-thank-you/">Download in Windows </a>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" width="50" height="50"
+            alt="">
+        <div class="letter">
+            <h3>
+                Download UltraEdit&nbsp;
+                <small>
+                    v2023.2(released 2023/12/15) |
+                    <a href="/updates/uehotfix/">Hotfix</a>
+                </small>
+            </h3>
+        </div>
+    </div>
+    <div class="objects">
+        <div class="obj1">
+            <h3>
+                <strong>English</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj2">
+            <h3>
+                <strong>Marathi</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj3">
+            <h3>
+                <strong>Hindi</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj4">
+            <h3>
+                <strong>Telgu</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj5">
+            <h3>
+                <strong>Marwadi</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj6">
+            <h3>
+                <strong>Gujrati</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj7">
+            <h3>
+                <strong>Urdu</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj8">
+            <h3>
+                <strong>French</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+        <div class="obj9">
+            <h3>
+                <strong>Indonesia</strong>
+            </h3>
+            <div class="boxes">
+                <div class="blue">
+                    <li>Download 32-bit</li>
+                </div>
+                <div class="green">
+                    <li>Download 64-bit</li>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>&copy;Akash Singh</footer>
+</body>
+
+</html>
